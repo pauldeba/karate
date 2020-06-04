@@ -1,0 +1,30 @@
+[
+{
+    "name": "boxes",
+    "id": 5
+  },
+  {
+    "name": "clothes",
+    "id": 15
+  },
+  {
+    "name": "hats",
+    "id": 1
+  },
+  {
+    "name": "sinks",
+    "id": 14
+  },
+  {
+    "name": "space",
+    "id": 2
+  },
+  {
+    "name": "sunglasses",
+    "id": 4
+  },
+  {
+    "name": "ties",
+    "id": 7
+  }
+  ]

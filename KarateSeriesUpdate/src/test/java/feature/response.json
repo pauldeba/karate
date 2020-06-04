@@ -1,0 +1,374 @@
+{
+   "TXLifeRequest": {
+      "TransRefGUID": "612e5646-5214-11e9-a827-c0a87f790000",
+      "TransType": {
+         "@tc": "103",
+         "#text": "New Business Submission"
+      },
+      "NoResponseOK": {
+         "@tc": "0",
+         "#text": "False"
+      },
+      "TestIndicator": {
+         "@tc": "0",
+         "#text": "False"
+      },
+      "OLifE": {
+         "SourceInfo": {
+            "CreationDate": "2019-03-29",
+            "CreationTime": "04:18:29.475934"
+         },
+         "Holding": {
+            "@id": "Holding_1",
+            "HoldingTypeCode": {
+               "@tc": "2",
+               "#text": "Policy"
+            },
+            "HoldingStatus": {
+               "@tc": "3",
+               "#text": "Proposed/Applied For"
+            },
+            "Policy": {
+               "PolNumber": "00AE038390",
+               "LineOfBusiness": {
+                  "@tc": "2",
+                  "#text": "Annuity"
+               },
+               "ProductType": {
+                  "@tc": "9",
+                  "#text": "Annuity"
+               },
+               "ShortName": "ISA5L    18",
+               "PolicyStatus": {
+                  "@tc": "8",
+                  "#text": "Pending Issue"
+               },
+               "IssueNation": {
+                  "@tc": "1",
+                  "#text": "US"
+               },
+               "Jurisdiction": {
+                  "@tc": "43",
+                  "#text": "Oregon"
+               },
+               "ReplacementType": {
+                  "@tc": "1",
+                  "#text": "None"
+               },
+               "PaymentMode": {
+                  "@tc": "9",
+                  "#text": "Single"
+               },
+               "PaymentMethod": {
+                  "@tc": "2",
+                  "#text": "Direct Bill"
+               },
+               "PaymentDraftDay": "29",
+               "FinancialActivity": {
+                  "Payment": {
+                     "@id": "1",
+                     "PaymentKey": "07010190870001512175",
+                     "PaymentForm": {
+                        "@tc": "2147483647",
+                        "#text": "EXC"
+                     },
+                     "PaymentAmt": "22178.08",
+                     "SourceOfFundsTC": {
+                        "@tc": "2147483647",
+                        "#text": "Q4"
+                     },
+                     "ReferenceNo": "STDL001831724",
+                     "OLifEExtension": {
+                        "PriorCarrierName": "COLUMBIA BANK",
+                        "PriorCarrierContractNbr": "4100407099"
+                     }
+                  }
+               },
+               "Annuity": {
+                  "QualPlanType": {
+                     "@tc": "5",
+                     "#text": "IRA"
+                  },
+                  "InitPaymentAmt": "22178.08",
+                  "KeyedValue": {
+                     "KeyName": "NBSRetainedCommissionAmt",
+                     "KeyValue": "0.00"
+                  },
+                  "RMDCalcMeth": {
+                     "@tc": "2147483647",
+                     "#text": "Y"
+                  },
+                  "BeneDesignationWording": "Prim: DAVID GERHARDT, Husband, 100%",
+                  "AnnuityUSA": {
+                     "Exchange1035Ind": {
+                        "@tc": "0"
+                     }
+                  },
+                  "OLifEExtension": {
+                     "@VendorCode": "430",
+                     "InitCovAmt": "221.78"
+                  }
+               },
+               "KeyedValue": [
+                  {
+                     "KeyName": "AppCtlNbr",
+                     "KeyValue": "07010190328002291778"
+                  },
+                  {
+                     "KeyName": "CltActID",
+                     "KeyValue": "AN10792344"
+                  },
+                  {
+                     "KeyName": "PolUserCodes",
+                     "KeyValue": "AOE|07010701"
+                  },
+                  {
+                     "KeyName": "DsbBdrpNbr"
+                  }
+               ],
+               "OLifEExtension": {
+                  "@VendorCode": "430",
+                  "StopBillInd": "Y"
+               }
+            },
+            "Investment": [
+               {
+                  "@id": "Investment_1",
+                  "InvestmentKey": "Investment_1",
+                  "SubAccount": {
+                     "@id": "SubAccount_1",
+                     "ProductCode": "EQUITY",
+                     "ProductFullName": "INDEXED FUND",
+                     "OpenDate": "2019-03-29",
+                     "AllocPercent": "25.000000000",
+                     "ActualEndDate": "9999-12-31",
+                     "KeyedValue": {
+                        "KeyName": "AllocType",
+                        "KeyValue": "DEF"
+                     }
+                  }
+               },
+               {
+                  "@id": "Investment_2",
+                  "InvestmentKey": "Investment_2",
+                  "SubAccount": {
+                     "@id": "SubAccount_2",
+                     "ProductCode": "EQUITY2",
+                     "ProductFullName": "INDEXED FUND 2",
+                     "OpenDate": "2019-03-29",
+                     "AllocPercent": "75.000000000",
+                     "ActualEndDate": "9999-12-31",
+                     "KeyedValue": {
+                        "KeyName": "AllocType",
+                        "KeyValue": "DEF"
+                     }
+                  }
+               }
+            ]
+         },
+         "Party": [
+            {
+               "@id": "Party_Annuitant_1",
+               "PartyTypeCode": {
+                  "@tc": "1",
+                  "#text": "Person"
+               },
+               "PartyKey": "540962598",
+               "GovtID": "540962598",
+               "GovtIDStat": {
+                  "@tc": "2",
+                  "#text": "Not certified"
+               },
+               "GovtIDTC": {
+                  "@tc": "1",
+                  "#text": "SSN"
+               },
+               "Person": {
+                  "FirstName": "TAMMIE",
+                  "MiddleName": "L",
+                  "LastName": "GERHARDT",
+                  "Gender": {
+                     "@tc": "2",
+                     "#text": "F"
+                  },
+                  "BirthDate": "1963-05-28"
+               },
+               "Address": [
+                  {
+                     "AddressTypeCode": {
+                        "@tc": "1",
+                        "#text": "Home"
+                     },
+                     "Line1": "19239 SHOSHONE RD",
+                     "City": "BEND",
+                     "AddressState": "OR",
+                     "AddressStateTC": {
+                        "@tc": "43",
+                        "#text": "Oregon"
+                     },
+                     "Zip": "97709"
+                  },
+                  {
+                     "AddressTypeCode": {
+                        "@tc": "17",
+                        "#text": "Mailing"
+                     },
+                     "Line1": "po box 1555",
+                     "City": "BEND",
+                     "AddressState": "OR",
+                     "AddressStateTC": {
+                        "@tc": "43",
+                        "#text": "Oregon"
+                     },
+                     "Zip": "97709-1555"
+                  }
+               ],
+               "Phone": {
+                  "PhoneTypeCode": {
+                     "@tc": "1",
+                     "#text": "Home Telephone"
+                  },
+                  "AreaCode": "541",
+                  "DialNumber": "2809641"
+               },
+               "EMailAddress": {
+                  "EMailType": {
+                     "@tc": "2",
+                     "#text": "Personal Email"
+                  },
+                  "AddrLine": "DTGERHARDT63@GMAIL.COM"
+               }
+            },
+            {
+               "@id": "Party_Agent_1",
+               "PartyTypeCode": {
+                  "@tc": "1",
+                  "#text": "Person"
+               },
+               "Person": {
+                  "FirstName": "Gerald",
+                  "LastName": "Barker"
+               },
+               "Producer": {
+                  "ProducerKey": "0000497690",
+                  "ProducerAgreement": {
+                     "@id": "ProducerAgreement_Agent_1",
+                     "ProducerAgreementKey": "IA"
+                  }
+               }
+            }
+         ],
+         "Relation": [
+            {
+               "@OriginatingObjectID": "Holding_1",
+               "@RelatedObjectID": "Party_Annuitant_1",
+               "@id": "Relation_Annuitant_1",
+               "OriginatingObjectType": {
+                  "@tc": "4",
+                  "#text": "Holding"
+               },
+               "RelatedObjectType": {
+                  "@tc": "6",
+                  "#text": "Party"
+               },
+               "RelationRoleCode": {
+                  "@tc": "35",
+                  "#text": "Annuitant"
+               }
+            },
+            {
+               "@OriginatingObjectID": "Holding_1",
+               "@RelatedObjectID": "Party_Annuitant_1",
+               "@id": "Relation_Owner_1",
+               "OriginatingObjectType": {
+                  "@tc": "4",
+                  "#text": "Holding"
+               },
+               "RelatedObjectType": {
+                  "@tc": "6",
+                  "#text": "Party"
+               },
+               "RelationRoleCode": {
+                  "@tc": "8",
+                  "#text": "Owner"
+               }
+            },
+            {
+               "@OriginatingObjectID": "Holding_1",
+               "@RelatedObjectID": "Party_Annuitant_1",
+               "@id": "Relation_Payer_1",
+               "OriginatingObjectType": {
+                  "@tc": "4",
+                  "#text": "Holding"
+               },
+               "RelatedObjectType": {
+                  "@tc": "6",
+                  "#text": "Party"
+               },
+               "RelationRoleCode": {
+                  "@tc": "31",
+                  "#text": "Payer"
+               }
+            },
+            {
+               "@OriginatingObjectID": "Holding_1",
+               "@RelatedObjectID": "Party_Agent_1",
+               "@id": "Relation_Agent_1",
+               "@ProducerAgreementID": "ProducerAgreement_Agent_1",
+               "OriginatingObjectType": {
+                  "@tc": "4",
+                  "#text": "Holding"
+               },
+               "RelatedObjectType": {
+                  "@tc": "6",
+                  "#text": "Party"
+               },
+               "RelationRoleCode": {
+                  "@tc": "11",
+                  "#text": "Primary Agent"
+               },
+               "InterestPercent": "100.0",
+               "VolumeSharePct": "100.0"
+            },
+            {
+               "@OriginatingObjectID": "Holding_1",
+               "@RelatedObjectID": "Investment_1",
+               "@id": "Relation_Investment_To_Holding_Investment_1",
+               "OriginatingObjectType": {
+                  "@tc": "4",
+                  "#text": "Holding"
+               },
+               "RelatedObjectType": {
+                  "@tc": "31",
+                  "#text": "Investment"
+               },
+               "RelationRoleCode": {
+                  "@tc": "999",
+                  "#text": "Any Relationship is Acceptable"
+               }
+            },
+            {
+               "@OriginatingObjectID": "Holding_1",
+               "@RelatedObjectID": "Investment_2",
+               "@id": "Relation_Investment_To_Holding_Investment_2",
+               "OriginatingObjectType": {
+                  "@tc": "4",
+                  "#text": "Holding"
+               },
+               "RelatedObjectType": {
+                  "@tc": "31",
+                  "#text": "Investment"
+               },
+               "RelationRoleCode": {
+                  "@tc": "999",
+                  "#text": "Any Relationship is Acceptable"
+               }
+            }
+         ]
+      },
+      "OLifEExtension": {
+         "@VendorCode": "430",
+         "CompID_EnvID_Version": "SICSCVCURRENT"
+      }
+   }
+}
