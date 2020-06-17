@@ -1,0 +1,14 @@
+{
+  "int": {
+    "placeholder_url": "http://jsonplaceholder.typicode.com",
+    "use_ssl": false
+  },
+  "sys": {
+    "placeholder_url": "http://jsonplaceholder.typicode.com",
+    "use_ssl": false
+  },
+  "acc": {
+    "placeholder_url": "http://jsonplaceholder.typicode.com",
+    "use_ssl": false
+  }
+}

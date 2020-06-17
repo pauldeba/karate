@@ -1,0 +1,17 @@
+{
+  "int": {
+    "db": {"hostname": "HLBWMSQLV084.corp.standard.com", "port": "60084", "username": "test_tdm_dev", "database": "TDINT"},
+    "oracle": {"hostname": "seq1-ds.standard.com", "port": "1521", "username": "EBERSTMNTCISSVC", "sid": "gtxi"},
+    "db2": {"hostname": "cdr400.standard.com", "port": "446", "username": "FPOTEST3", "database": "ASDP04"}
+  },
+  "sys": {
+    "db": {"hostname": "HLBWMSQLV084.corp.standard.com", "port": "60084", "username": "test_tdm_dev", "database": "TDSYS"},
+    "oracle": {"hostname": "seq1-ds.standard.com", "port": "1521", "username": "EBERSTMNTCISSVC", "sid": "gtxs"},
+    "db2": {"hostname": "cdr400.standard.com", "port": "446", "username": "FPOTEST3", "database": "ASDP04"}
+  },
+  "acc": {
+    "db": {"hostname": "HLBWMSQLV084.corp.standard.com", "port": "60084", "username": "test_tdm_acc", "database": "TDACC"},
+    "oracle": {"hostname": "seq1-ds.standard.com", "port": "1521", "username": "EBERSTMNTCISSVC", "sid": "gtxa"},
+    "db2": {"hostname": "cdr400.standard.com", "port": "446", "username": "FPOTEST3", "database": "ASDP04"}
+  }
+}
